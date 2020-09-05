@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# CA1062: Validate arguments of public methods
+dotnet_diagnostic.CA1062.severity = silent
+
+# CS0618: Type or member is obsolete
+dotnet_diagnostic.CS0618.severity = silent
+
+# IDE0005: Using directive is unnecessary.
+dotnet_diagnostic.IDE0005.severity = silent

@@ -1,0 +1,9 @@
+<Project>	
+
+	<!-- Nuget properties -->
+	<Import Project="ManageNugetVersion.props" Condition="Exists('ManageNugetVersion.props')" />
+	
+	<!--FxCop code analysis-->
+	<Import Project="CodeAnalyzer.props" Condition="Exists('CodeAnalyzer.props')" />
+
+</Project>
